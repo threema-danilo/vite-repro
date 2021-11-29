@@ -19,6 +19,7 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
-    "tempy": "^2.0.0"
+    "tempy": "^2.0.0",
+    "vite-plugin-commonjs-externals": "^0.1.1"
   }
 }
