@@ -8,6 +8,9 @@ export default defineConfig({
         svelte(),
         commonjsExternals.default({externals: [
             'node:util',
+            'node:fs',
+            'node:path',
+            'node:stream',
         ]}),
     ]
 })
